@@ -81,7 +81,7 @@ if __name__ == '__main__':
     classfier_params = [
         {'svc__C': [1], 'svc__gamma': [0.01]},
         {'decisiontreeclassfier__max_depth': [6, 9, 11]},
-        {'randomforestclassifier___n_estimators': [3, 5, 6]},
+        {'randomforestclassifier__n_estimators': [3, 5, 6]},
         {'kneighborsclassifier__n_neighbors': [4, 6, 8]}
     ]
 

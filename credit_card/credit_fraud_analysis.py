@@ -39,7 +39,7 @@ def show_metrics():
     TP(True Positive)：将正类预测为正类数，真实为0，预测也为0
     FN(False Negative)：将正类预测为负类数，真实为0，预测为1
     FP(False Positive)：将负类预测为正类数， 真实为1，预测为0
-    tN(True Negative)：将负类预测为负类数，真实为1，预测也为1
+    TN(True Negative)：将负类预测为负类数，真实为1，预测也为1
     :return:
     """
     tp = cm[1,1]
