@@ -48,3 +48,5 @@ if __name__ == '__main__':
     plt.plot(df_year["Weighted_Price"],'-',label='按年份')
     plt.legend()
     plt.show()
+
+
